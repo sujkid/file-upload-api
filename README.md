@@ -1,8 +1,8 @@
 
 # File Upload Back end
 File Upload is an app that enables users to upload files from a browser
-to express and store them in AWS S3. The app stores information about uploaded
-files in MongoDB via Mongoose.
+to express and store them in AWS S3. The app stores information about the
+uploaded files in MongoDB via Mongoose.
 
 
 ## Links
@@ -56,6 +56,7 @@ As a user, I can
 4. I was not able to test uploading files greater than 1GB, as I do not have
    .doc, .png or .pdf files that large. But I did test with smaller files
    and made sure they could not be uploaded.
+5. I couldn't find time to write any unit tests.
 
 
 ## [License](LICENSE)
