@@ -2,7 +2,6 @@
 
 const controller = require('lib/wiring/controller');
 const s3Upload = require('../../lib/aws-s3-upload');
-const s3Get = require('../../lib/aws-s3-get');
 const models = require('app/models');
 const File = models.file;
 
